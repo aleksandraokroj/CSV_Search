@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT file (date, appStore, userReviews)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT appStore (app,statistics)>
+<!ELEMENT app (appName,rating,appReviews,size,installs,typeOfApp,contentRating,price,genre,lastUpdated,version)>
+<!ATTLIST app category CDATA #REQUIRED>
+<!ELEMENT appName (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT appReviews (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT installs (#PCDATA)>
+<!ELEMENT typeofapp (#PCDATA)>
+<!ELEMENT contentrating (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT lastUpdated (#PCDATA)>
+<!ELEMENT version (current,android)>
+<!ELEMENT current (#PCDATA)>
+<!ELEMENT android (#PCDATA)>
+<!ELEMENT statistics (type)>
+<!ELEMENT type (general, detailed)>
+<!ELEMENT general (testedApplications,categoryTop,categoryUnique,ratingGen)>
+<!ELEMENT testedApplications (#PCDATA)>
+<!ELEMENT categoryTop (#PCDATA)>
+<!ELEMENT categoryUnique (#PCDATA)>
+<!ELEMENT ratingGen (#PCDATA)>
+<!ELEMENT detailed (installsGen,typeTop, typeUnique ,contentRatingTop, contentRatingUnique, androidVerGen)>
+<!ELEMENT installsGen (#PCDATA)>
+<!ELEMENT typeTop(#PCDATA)>
+<!ELEMENT typeUnique(#PCDATA)>
+<!ELEMENT contentRatingTop (#PCDATA)>
+<!ELEMENT contentRatingUnique (#PCDATA)>
+<!ELEMENT androidVerGen (#PCDATA)>
+<!ELEMENT userReviews (reviewdApp,reviews)>
+<!ELEMENT reviewdApp (allReviews)>
+<!ATTLIST reviewdApp name CDATA #REQUIRED>
+<!ELEMENT allReviews (#PCDATA)>
+<!ELEMENT reviews (sort,sentiment)>
+<!ELEMENT sort (newReview1, newReview2, newReview3, oldReview1, oldReview2, oldReview3)>
+<!ELEMENT newReview1 (#PCDATA)>
+<!ELEMENT newReview2 (#PCDATA)>
+<!ELEMENT newReview3 (#PCDATA)>
+<!ELEMENT oldReview1 (#PCDATA)>
+<!ELEMENT oldReview2 (#PCDATA)>
+<!ELEMENT oldReview3 (#PCDATA)>
+<!ELEMENT sentiment (polarity,subjectivity)>
+<!ELEMENT polarity (#PCDATA)>
+<!ELEMENT subjectivity (#PCDATA)>

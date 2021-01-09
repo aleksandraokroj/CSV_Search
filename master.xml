@@ -1,0 +1,59 @@
+<?xml-stylesheet type= "text/xsl" href= "master1.xsl"?><?xml-stylesheet type= "text/xsl" href= "master2.xsl"?><!DOCTYPE file SYSTEM "XMLProject/master.dtd">
+<file>
+    <date>createDate</date>
+    <appStore>
+        <app category="ART_AND_DESIGN">
+            <appName>Paper flowers instructions</appName> 
+            <rating>4.4</rating>
+            <appReviews>167</appReviews>
+            <size>5.6M</size>
+            <installs>50,000+</installs>
+            <typeOfApp>Free</typeOfApp>
+            <contentRating>Everyone</contentRating>
+            <price>0</price>
+            <genre>Art&amp;Design</genre>
+            <lastUpdated>March 26, 2017</lastUpdated>
+            <version>
+                <current>1.0</current>
+                <android>2.3</android>
+            </version>
+        </app>
+        <statistics>
+            <type>
+                <general>
+                    <testedApplications>10834</testedApplications>
+                    <categoryTop>FAMILY</categoryTop>
+                    <categoryUnique>34</categoryUnique>
+                    <ratingGen>4.19</ratingGen>
+                </general> 
+                <detailed>
+                   <installsGen>1,000,000+</installsGen>
+                    <typeTop>Free</typeTop>
+                    <typeUnique>3</typeUnique>
+                    <contentRatingTop>Everyone</contentRatingTop>
+                    <contentRatingUnique>6</contentRatingUnique>
+                    <androidVerGen>4.1 and up</androidVerGen>
+                </detailed>
+            </type>
+        </statistics>
+    </appStore>
+    <userReviews>
+        <reviewdApp name="Abs Training-Burn belly fat">
+            <allReviews>36</allReviews>
+        </reviewdApp>
+        <reviews>
+            <sort>
+                <newReview1>Do like full-screen ads hijacking device time? If so, you! Seriously though, devs pursue another line work embarrassingly pitiful.</newReview1>
+                <newReview2>I loved first, now? For past three days, even opened, I getting ads. While watching YouTube, playing SBTS game, checking social media. It happens while, enough annoying. A closed interrupting give ads!!! Uninstalling~</newReview2>
+                <newReview3>Best idea us</newReview3>
+                <oldReview1>A good tool keep daily routine</oldReview1>
+                <oldReview2>Before Sony Xperia M4 I Sony loyal ... No longer. Eats data plan constantly updating massive amount bloatware. And unstable, crashes every two months. I'm buying bloatware free phone ever consider another Sony. I dislike paying problem. Must month end Sony wants update F@#$ing phone again.</oldReview2>
+                <oldReview3>Poor Software update - issues fixes Since I got update phone freezes, run properly I can't even adjust volume anymore says internal error. This phone bloody expensive old. Except quality</oldReview3>
+            </sort>
+            <sentiment>
+                <polarity>sentimentPolarity</polarity>
+                <subjectivity>sentimentSubjectivity</subjectivity>
+            </sentiment>
+        </reviews>
+    </userReviews>
+</file>
